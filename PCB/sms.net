@@ -1,0 +1,366 @@
+(netlist " "
+  (compinst "U1"
+    (patternName "")
+    (compvalue "SIM_card_holder"))
+  (compinst "U2"
+    (patternName "")
+    (compvalue "SIM300C"))
+  (compinst "U3"
+    (patternName "")
+    (compvalue "MCP73863"))
+  (compinst "U4"
+    (patternName "")
+    (compvalue "PIC18LF2525"))
+  (compinst "R1"
+    (patternName "RES300")
+    (compvalue "RES"))
+  (compinst "R2"
+    (patternName "RES300")
+    (compvalue "RES"))
+  (compinst "R3"
+    (patternName "RES300")
+    (compvalue "RES"))
+  (compinst "R4"
+    (patternName "RES300")
+    (compvalue "RES"))
+  (compinst "X1"
+    (patternName "BCY-2/W11_4")
+    (compvalue "ECS-40-20-1"))
+  (compinst "C1"
+    (patternName "CAP100")
+    (compvalue "CAP"))
+  (compinst "C2"
+    (patternName "CAP100")
+    (compvalue "CAP"))
+  (compinst "R5"
+    (patternName "RES300")
+    (compvalue "RES"))
+  (compinst "C3"
+    (patternName "CAP100RP")
+    (compvalue "POLCAP"))
+  (compinst "Q1"
+    (patternName "TO-92(EBC)")
+    (compvalue "BC317A"))
+  (compinst "R6"
+    (patternName "RES300")
+    (compvalue "RES"))
+  (compinst "R7"
+    (patternName "RES300")
+    (compvalue "RES"))
+  (compinst "R8"
+    (patternName "RES300")
+    (compvalue "RES"))
+  (compinst "D1"
+    (patternName "LED100")
+    (compvalue "LED"))
+  (compinst "Q2"
+    (patternName "TO-92(EBC)")
+    (compvalue "BC317A"))
+  (compinst "R9"
+    (patternName "RES300")
+    (compvalue "RES"))
+  (compinst "R10"
+    (patternName "RES300")
+    (compvalue "RES"))
+  (compinst "D2"
+    (patternName "DO-35")
+    (compvalue "1N4103"))
+  (compinst "D3"
+    (patternName "DO-35")
+    (compvalue "1N4103"))
+  (compinst "LS1"
+    (patternName "")
+    (compvalue "SPEAKER"))
+  (compinst "D4"
+    (patternName "DO-35")
+    (compvalue "1N4112"))
+  (compinst "D5"
+    (patternName "DO-35")
+    (compvalue "1N4112"))
+  (compinst "D6"
+    (patternName "DO-35")
+    (compvalue "1N4112"))
+  (compinst "D7"
+    (patternName "DO-35")
+    (compvalue "1N4112"))
+  (compinst "D8"
+    (patternName "DO-35")
+    (compvalue "1N4112"))
+  (compinst "R11"
+    (patternName "RES300")
+    (compvalue "RES"))
+  (compinst "IC1"
+    (patternName "SFM-3/W10_7")
+    (compvalue "LM350T"))
+  (compinst "C4"
+    (patternName "CAP100RP")
+    (compvalue "CAP100RP"))
+  (compinst "C5"
+    (patternName "CAP100RP")
+    (compvalue "CAP100RP"))
+  (compinst "R12"
+    (patternName "RES300")
+    (compvalue "RES"))
+  (compinst "R13"
+    (patternName "RES300")
+    (compvalue "RES"))
+  (compinst "U5"
+    (patternName "")
+    (compvalue "LTC4412"))
+  (compinst "U6"
+    (patternName "")
+    (compvalue "IRLML6402"))
+  (compinst "U7"
+    (patternName "")
+    (compvalue "IRLML6402"))
+  (compinst "R14"
+    (patternName "RES300")
+    (compvalue "RES"))
+  (compinst "C6"
+    (patternName "CAP100RP")
+    (compvalue "CAP100RP"))
+  (compinst "C7"
+    (patternName "CAP100RP")
+    (compvalue "CAP100RP"))
+  (compinst "C8"
+    (patternName "CAP100")
+    (compvalue "CAP100"))
+  (compinst "R15"
+    (patternName "RES300")
+    (compvalue "RES"))
+  (compinst "C9"
+    (patternName "CAP100RP")
+    (compvalue "CAP100RP"))
+  (compinst "K1"
+    (patternName "")
+    (compvalue "SWITCHSPDT"))
+  (compinst "R16"
+    (patternName "RES300")
+    (compvalue "RES"))
+  (compinst "R17"
+    (patternName "RES300")
+    (compvalue "RES"))
+  (compinst "R18"
+    (patternName "RES300")
+    (compvalue "RES"))
+  (compinst "R19"
+    (patternName "RES300")
+    (compvalue "RES"))
+  (compinst "IC2"
+    (patternName "SOT-353/X0_35")
+    (compvalue "MC74VHC1G07DFT1"))
+  (compinst "IC3"
+    (patternName "SOT-353/X0_35")
+    (compvalue "MC74VHC1G07DFT1"))
+  (compinst "R20"
+    (patternName "RES300")
+    (compvalue "RES"))
+  (compinst "R21"
+    (patternName "RES300")
+    (compvalue "RES"))
+  (net "Net_0"
+    (node "U1" "6")
+    (node "U2" "25")
+    (node "R3" "A")
+    (node "D4" "K"))
+  (net "Net_1"
+    (node "U2" "27")
+    (node "R1" "A"))
+  (net "Net_10"
+    (node "U3" "4")
+    (node "U3" "5")
+    (node "IC1" "3")
+    (node "C4" "PLUS")
+    (node "C9" "PLUS")
+    (node "R16" "B"))
+  (net "Net_11"
+    (node "U4" "9")
+    (node "X1" "1")
+    (node "C1" "A"))
+  (net "Net_12"
+    (node "U4" "10")
+    (node "X1" "2")
+    (node "C2" "A"))
+  (net "Net_13"
+    (node "U2" "15")
+    (node "U4" "15")
+    (node "R11" "B")
+    (node "IC3" "5")
+    (node "R21" "A"))
+  (net "Net_14"
+    (node "U2" "17")
+    (node "R5" "A"))
+  (net "Net_15"
+    (node "U4" "16")
+    (node "R5" "B"))
+  (net "Net_16"
+    (node "U2" "14")
+    (node "C3" "PLUS"))
+  (net "Net_17"
+    (node "U2" "16")
+    (node "R6" "B"))
+  (net "Net_18"
+    (node "Q1" "B")
+    (node "R6" "A")
+    (node "R7" "B"))
+  (net "Net_19"
+    (node "R8" "B")
+    (node "D1" "K"))
+  (net "Net_2"
+    (node "U1" "5")
+    (node "R1" "B")
+    (node "D5" "K"))
+  (net "Net_20"
+    (node "Q1" "C")
+    (node "R8" "A"))
+  (net "Net_21"
+    (node "U4" "2")
+    (node "R16" "A")
+    (node "R17" "B"))
+  (net "Net_22"
+    (node "R9" "A")
+    (node "D2" "K"))
+  (net "Net_23"
+    (node "Q2" "B")
+    (node "R9" "B")
+    (node "R10" "B"))
+  (net "Net_24"
+    (node "U2" "23")
+    (node "D2" "A"))
+  (net "Net_25"
+    (node "Q2" "C")
+    (node "D3" "A")
+    (node "LS1" "B"))
+  (net "Net_26"
+    (node "U1" "8")
+    (node "U2" "33"))
+  (net "Net_27"
+    (node "U4" "17")
+    (node "IC2" "2"))
+  (net "Net_28"
+    (node "IC1" "1")
+    (node "R12" "A")
+    (node "R13" "B"))
+  (net "Net_29"
+    (node "U2" "48")
+    (node "IC2" "4")
+    (node "R21" "B"))
+  (net "Net_3"
+    (node "U1" "4")
+    (node "R2" "B")
+    (node "D6" "K")
+    (node "D7" "K")
+    (node "R11" "A"))
+  (net "Net_30"
+    (node "U5" "5")
+    (node "U6" "1"))
+  (net "Net_31"
+    (node "U4" "18")
+    (node "IC3" "4")
+    (node "R20" "A"))
+  (net "Net_32"
+    (node "U3" "12")
+    (node "U3" "13")
+    (node "U3" "14")
+    (node "U5" "1")
+    (node "U6" "3")
+    (node "C7" "PLUS")
+    (node "R18" "B"))
+  (net "Net_33"
+    (node "U5" "4")
+    (node "U7" "1")
+    (node "R14" "A"))
+  (net "Net_34"
+    (node "IC1" "2")
+    (node "C5" "PLUS")
+    (node "R12" "B")
+    (node "U7" "3"))
+  (net "Net_35"
+    (node "U4" "3")
+    (node "R18" "A")
+    (node "R19" "B"))
+  (net "Net_36"
+    (node "U3" "7")
+    (node "R15" "B"))
+  (net "Net_37"
+    (node "U3" "10")
+    (node "C8" "A"))
+  (net "Net_4"
+    (node "U2" "31")
+    (node "R2" "A"))
+  (net "Net_5"
+    (node "U2" "29")
+    (node "R3" "B")
+    (node "R4" "A"))
+  (net "Net_6"
+    (node "U1" "3")
+    (node "R4" "B")
+    (node "D8" "K"))
+  (net "Net_7"
+    (node "U1" "7")
+    (node "U1" "1")
+    (node "U2" "2")
+    (node "U2" "4")
+    (node "U2" "6")
+    (node "U2" "8")
+    (node "U2" "10")
+    (node "U2" "11")
+    (node "U2" "12")
+    (node "U2" "28")
+    (node "U2" "30")
+    (node "U2" "32")
+    (node "U2" "34")
+    (node "U2" "36")
+    (node "U2" "51")
+    (node "U2" "52")
+    (node "U3" "6")
+    (node "U3" "11")
+    (node "U3" "15")
+    (node "U4" "19")
+    (node "U4" "8")
+    (node "C1" "B")
+    (node "C2" "B")
+    (node "C3" "MINUS")
+    (node "Q1" "E")
+    (node "R7" "A")
+    (node "Q2" "E")
+    (node "R10" "A")
+    (node "D4" "A")
+    (node "D5" "A")
+    (node "D6" "A")
+    (node "D7" "A")
+    (node "D8" "A")
+    (node "C4" "MINUS")
+    (node "C5" "MINUS")
+    (node "R13" "A")
+    (node "U5" "2")
+    (node "U5" "3")
+    (node "C6" "MINUS")
+    (node "C7" "MINUS")
+    (node "C8" "B")
+    (node "R15" "A")
+    (node "C9" "MINUS")
+    (node "R17" "A")
+    (node "R19" "A")
+    (node "IC2" "3")
+    (node "IC3" "3"))
+  (net "Net_8"
+    (node "U2" "1")
+    (node "U2" "3")
+    (node "U2" "5")
+    (node "U2" "7")
+    (node "U2" "9")
+    (node "U4" "20")
+    (node "D1" "A")
+    (node "D3" "K")
+    (node "LS1" "A")
+    (node "U5" "6")
+    (node "U6" "2")
+    (node "U7" "2")
+    (node "R14" "B")
+    (node "C6" "PLUS")
+    (node "IC2" "5")
+    (node "R20" "B"))
+  (net "Net_9"
+    (node "U2" "50")
+    (node "IC3" "2")))
